@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Summary {.smaller}
 
-This Shiny App allows a user to analyze the correlation between a sector ETF and an Index or another sector ETF. The app can be run from [here](https://bkelemen.shinyapps.io/StockCorrelationShinyApp/).
+This Shiny App allows a user to analyze the correlation between a sector ETF and an Index or another sector ETF. The app can be run from [here](https://GeorgeSarpong.shinyapps.io/StockCorrelationShinyApp/).
 
 An [ETF](https://en.wikipedia.org/wiki/Exchange-traded_fund) is an investment fund traded on stock exchanges, much like stocks. The rolling 20-day correlation with an index or another ETF allows us to understand how the ETF returns are correlated to the index.
 
@@ -51,7 +51,7 @@ To calculate the correlations between ETFs and the selected Index we follow this
 2. Isolate the Index returns to which all other ETFs will be correlated
 3. Calculate rolling 20-day correlations
 
-The source code is available on this [github repo](https://github.com/bkelemen56/StockCorrelationShinyApp).
+The source code is available on this [github repo](https://github.com/GeorgeSarpong/StockCorrelationShinyApp).
 
 ## References
 
